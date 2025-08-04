@@ -2,15 +2,16 @@
 
 ## Overview
 
-This project is part of the IBM Data Science Professional Certificate, specifically within the 10th course titled "Applied Data Science Capstone." The primary objective is to perform data wrangling, data visualization, and exploratory analysis on SpaceX Falcon 9 launch records to determine the success rate of SpaceX launches under various conditions.
+This project is part of the IBM Data Science Professional Certificate, specifically within the 10th course titled **"Applied Data Science Capstone."** The goal is to analyze SpaceX Falcon 9 launch records using data science techniques to determine the success rate of launches under various conditions.
 
 ## Objective
 
-- Collect, clean, and analyze launch data.
-- Identify key factors that influence successful Falcon 9 launches.
-- Use visualizations to communicate insights effectively.
-- Apply data science skills in a practical, real-world scenario.
+- Collect, clean, and analyze SpaceX launch data
+- Identify key factors that influence successful Falcon 9 launches
+- Communicate findings using visualizations and data storytelling
+- Apply real-world data science workflows
 
+## Project Structure
 ## Project Structure
 
 ```text
@@ -21,46 +22,41 @@ SpaceX_Falcon9_Analysis/
 ├── jupyter-labs-spacex-data-collection-api.ipynb
 ├── jupyter-labs-webscraping.ipynb
 ├── labs-jupyter-spacex-Data wrangling.ipynb
-
-
-
-## Notebooks Description
+```
+## Notebooks
 
 ### 1. Data Collection (API)
-- Utilizes the SpaceX REST API to collect historical Falcon 9 launch data.
-- Converts JSON responses into structured data using `pandas`.
+- Retrieves launch data using the SpaceX REST API
+- Parses JSON responses and converts them to structured tabular data using `pandas`
 
 ### 2. Web Scraping
-- Scrapes supplementary information such as launch sites and payload mass from Wikipedia.
-- Parses HTML content using `BeautifulSoup`.
-- Integrates with API data to enrich the dataset.
+- Scrapes supplementary launch data (e.g., payload mass, launch site info) from Wikipedia using `BeautifulSoup`
+- Integrates it with SpaceX API data to enrich the dataset
 
 ### 3. Data Wrangling
-- Merges and cleans the combined datasets.
-- Handles missing values, formats timestamps, and standardizes fields.
-- Prepares a final dataset suitable for downstream analysis and visualization.
+- Merges and cleans multiple datasets
+- Prepares final dataset for analysis and visualization
 
 ## Technologies Used
 
-- **Languages:** Python
-- **Libraries:** `pandas`, `requests`, `BeautifulSoup`, `json`, `datetime`
-- **Platform:** JupyterLab on IBM Skills Network Labs
+- **Programming:** Python (`pandas`, `requests`, `BeautifulSoup`)
+- **Notebook Environment:** Jupyter Notebooks via IBM Skills Network Labs
+- **Data Sources:** SpaceX REST API, Wikipedia
 - **Tools:** Git & GitHub
-- **Data Sources:** SpaceX API, Wikipedia
+- **Visualization (Later stages):** `matplotlib`, `seaborn`
 
 ## Key Skills Practiced
 
-- REST API interaction
-- HTML parsing and web scraping
-- Data wrangling and cleaning
-- Working with Jupyter Notebooks
-- Git version control and project structuring
-- Exploratory Data Analysis (EDA)
+- API interaction and JSON parsing
+- Web scraping and HTML parsing
+- Data cleaning and transformation
+- Exploratory data analysis (EDA)
+- Git version control and remote collaboration via GitHub
 
 ## Author
 
-This repository was created as part of the capstone requirement for the **IBM Data Science Professional Certificate** on Coursera.
+This repository was developed as part of the Capstone project in the IBM Data Science Professional Certificate on Coursera.
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the [MIT License](LICENSE).

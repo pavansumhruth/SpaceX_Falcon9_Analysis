@@ -12,7 +12,6 @@ This project is part of the IBM Data Science Professional Certificate, specifica
 - Apply real-world data science workflows
 
 ## Project Structure
-## Project Structure
 
 ```text
 SpaceX_Falcon9_Analysis/
